@@ -60,6 +60,8 @@ Si el valor devuelto por fork() es mayor que 0, significa que estamos en el proc
 
 Espero que esta explicación te ayude a entender mejor el código. Si tienes más preguntas, no dudes en hacerlas.
 
+# Resumen de la práctica #
+
 Esta practica tiene como objetivo ver que ciertas librerias utiles solo estan disponibles en sistemas linux y no en Windows. Para resolverlo, hacemos lo siguiente:
 
 1) Abrimos la terminal en Clion y escribimos "wsl --install" para instalar una máquina virtual de Ubuntu.
