@@ -33,6 +33,7 @@ int main() {
 
     return 0;
 }
+
 Explicación paso a paso:
 
 Primero, importamos las bibliotecas necesarias para la asignación de memoria y la creación de procesos.
@@ -59,3 +60,18 @@ Si el valor devuelto por fork() es mayor que 0, significa que estamos en el proc
 
 Espero que esta explicación te ayude a entender mejor el código. Si tienes más preguntas, no dudes en hacerlas.
 
+Esta practica tiene como objetivo ver que ciertas librerias utiles solo estan disponibles en sistemas linux y no en Windows. Para resolverlo, hacemos lo siguiente:
+
+1) Abrimos la terminal en Clion y escribimos "wsl --install" para instalar una máquina virtual de Ubuntu.
+
+2) Una vez instalada la máquina virtual, buscamos la app de Ubuntu en nuestro ordenador y nos pedirá crear un usuario y colocarle una contraseña, de modo que sea el usuario que tengamos creado en el sistema.
+
+3) Una vez creada actualizamos la máquina con el comando "sudo apt update".
+
+4) Instalamos ahora el compilador de C "sudo apt install gcc".
+
+5) Una vez hecho lo anterior, clonamos el repositorio en Github al local con el comando "git clone [URL]"
+
+6) Una vez creado el repositorio en local, entramos en el y creamos el .exe del archivo con el comando "gcc nombredelarchivo -o nombredelarchivo.exe".
+
+7) Ahora ejecutamos el archivo que se ha creado colocando ./nombre del archivo
